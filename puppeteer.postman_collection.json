@@ -1,0 +1,46 @@
+{
+	"variables": [],
+	"info": {
+		"name": "puppeteer",
+		"_postman_id": "a2809f34-fc7e-8325-bde5-d1a301a6c777",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get-Api",
+			"request": {
+				"url": "http://localhost:8081/pdfGenerator",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 009YZ34ofPBq46Ym9I00hPIxFtSZaXqmpRJhYhvUvl",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get-Api with authorization",
+			"request": {
+				"url": "http://localhost:8081/withAuthorization",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 009YZ34ofPBq46Ym9I00hPIxFtSZaXqmpRJhYhvUvl",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
